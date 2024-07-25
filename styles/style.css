@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+  font-family: 'Inter', sans-serif;
+}
+p {
+  font-size: 1rem;
+  font-family: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+.btn-primary {
+  background-color: rgb(230, 83, 60);
+  padding: 8px 20px 8px 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 48px;
+  border: none;
+  color: white;
+}
+.container {
+  width: 100%;
+}
+.bg-color {
+  background-color: rgb(0, 0, 0);
+}
+.org-color {
+  background-color: rgb(230, 83, 60);
+}
+/* 1st section start */
+.nav-bar {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+  /* margin: 5rem auto; */
+  padding: 5rem 8rem;
+}
+.home-bar {
+  display: flex;
+  gap: 20px;
+}
+.fit h2 {
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.home-bar {
+  font-size: 1.2rem;
+  font-weight: 400px;
+  color: white;
+  align-items: center;
+}
+.home-bar button {
+  background-color: rgb(230, 83, 60);
+  padding: 8px 20px 8px 20px;
+  border-radius: 20px;
+  width: 92px;
+  height: 38px;
+  border: none;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    360deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.nav-section-title {
+  align-items: center;
+  margin: 0 auto;
+  margin-right: 300px;
+}
+.nav-section-title h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: white;
+}
+#shape {
+  font-family: 'Dancing Script';
+}
+/* .nav-section-img {
+} */
+
+/* Change hyour habit section */
+.habit-section {
+  background-color: rgb(0, 0, 0);
+  margin: 0 aut0;
+  padding: 5rem;
+}
+.img-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.img-card p {
+  text-align: center;
+}
+.img-card h5 {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.card img {
+  border-radius: 50%;
+  margin-left: 1.25rem;
+}
+/* Run an Extra Mile Easily section start */
+
+.run-section {
+  display: flex;
+  width: 70%;
+  background-color: rgb(34, 34, 34);
+  justify-content: space-between;
+  padding: 3rem;
+  margin: 0 auto;
+  border-radius: 18px;
+  margin-bottom: 0px;
+}
+.run-section-img img {
+  width: 100%;
+  border-radius: 18px;
+}
+.run-section-title h3,
+p {
+  text-align: start;
+}
+
+/* calculation section start */
+.calculation-section {
+  background-color: rgb(0, 0, 0);
+  margin: 0 aut0;
+  padding: 5rem;
+}
+.calculation-section p {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.calculation {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  margin-top: 50px;
+  background-color: rgb(34, 34, 34);
+  padding: 5rem;
+}
+.calculation-chart h5 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.calculation table {
+  width: 310px;
+  color: rgba(255, 255, 255, 0.1);
+  height: 216px;
+}
+.t-header {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.t-data {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+}
+.calculation-bmi h5 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+}
+.calculation-bmi p {
+  text-align: start;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+/* .input-box {
+  margin-top: 2rem;
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(2px);
+} */
+.input-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.input-box input {
+  background-color: transparent;
+  color: white;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  border: none;
+}
+.input-box select {
+  background-color: transparent;
+  color: white;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  border: none;
+}
